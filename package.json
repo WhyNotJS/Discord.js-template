@@ -1,0 +1,11 @@
+{
+  "name": "testbot",
+  "version": "3.0.3",
+  "description": "Test bot",
+  "main": "client.js",
+  "author": "Why not?#2292",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.7.0"
+  }
+}
