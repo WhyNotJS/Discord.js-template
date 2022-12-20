@@ -12,8 +12,4 @@ module.exports = async (client) => {
     client.commands.each(command => commands.push(command.data));
 
     client.application.commands.set(commands);
-    const users = client.db.table('users')
-
-    // await users.deleteAll()
-    // await client.db.deleteAll()
 }
